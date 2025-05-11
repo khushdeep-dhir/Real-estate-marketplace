@@ -6,7 +6,7 @@
 ## Installation
 ### 1. Clone the project
 ```bash
-git clone https://github.com/thirdweb-example/marketplace-template
+git clone https://github.com/khushdeep-dhir/Real-estate-marketplace.git
 ```
 
 ### 2. Install the dependencies
@@ -16,7 +16,7 @@ npm install
 
 # yarn
 yarn
-
+```
 
 ### 3. Set up environment variables
 Change the client ID in `.env.local` (at the root level of your project) with your ID:
@@ -38,7 +38,7 @@ export const MARKETPLACE_CONTRACTS: MarketplaceContract[] = [
     chain: yourCustomChain,
   }
 ];
-
+```
 
 ### 5. You're set
 You can now run the template in your local machine.
@@ -48,6 +48,6 @@ npm run dev
 
 # yarn
 yarn dev
-
+```
 
 
